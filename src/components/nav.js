@@ -10,22 +10,29 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Nav = () => {
-  // const [navbar, setNavbar] = useState(true);
+  
   const [navClicked, setNavClicked] = useState(false);
   let offset = -70;
 
   const handleClick = () => {
     setNavClicked(!navClicked);
   };
+  const [navbar, setNavbar] = useState(false);
+  const handleScroll = () => {
+    if (window.pageYOffset >= 70) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
 
-  // const changeNav = () => {
-  //   if (window.scrollY >= 50) {
-  //     setNavbar(true);
-  //   } else {
-  //     setNavbar(false);
-  //   }
-  // };
-  // window.addEventListener("scroll", changeNav);
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const [width, setWidth] = useState(window.innerWidth);
   const breakPoint = 900;
@@ -33,16 +40,13 @@ const Nav = () => {
     const handleWindowResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleWindowResize);
 
-
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
-  //   className={
-  //     navbar
-  //       ? "nav-wrapper active nav-container": "nav-wrapper nav-container"}
-  // >
+
+
   return (
     <div className="container">
-      <div className={"nav-wrapper"} >
+      <div className={` ${navbar ? " nav-wrapper active":" nav-wrapper"} `} >
         <div className={"nav-container"}>
           <span className="logo" onClick={() => scroll.scrollToTop()}>
             &lt; Rashed Afridi &gt;
