@@ -41,18 +41,18 @@ const Nav = () => {
   //       ? "nav-wrapper active nav-container": "nav-wrapper nav-container"}
   // >
   return (
-    <div
-      className={"nav-wrapper"}
-    >
-      <div className={"nav-container"}>
-        <span className="logo" onClick={() => scroll.scrollToTop()}>
-          &lt; Rashed Afridi &gt;
+    <div className="container">
+      <div className={"nav-wrapper"} >
+        <div className={"nav-container"}>
+          <span className="logo" onClick={() => scroll.scrollToTop()}>
+            &lt; Rashed Afridi &gt;
       </span>
-        {/* Mobile Menu Icon */}
-        <div className="menu-icon" onClick={handleClick}>
-          <i>{navClicked ? <AiOutlineClose /> : <AiOutlineMenu />}</i>
+          {/* Mobile Menu Icon */}
+          <div className="menu-icon" onClick={handleClick}>
+            <i>{navClicked ? <AiOutlineClose /> : <AiOutlineMenu />}</i>
+          </div>
+          {width <= breakPoint ? <NavMobile offset={offset} navClicked={navClicked} /> : <NavDesktop offset={offset} />}
         </div>
-        {width <= breakPoint ? <NavMobile offset={offset} navClicked={navClicked} /> : <NavDesktop offset={offset} />}
       </div>
     </div>
   );

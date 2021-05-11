@@ -12,6 +12,7 @@ function skill() {
     return (
         <>
             <section id="skills">
+            <div className="container">
                 <h2>The skills I have</h2>
                 <div className="skill">
 
@@ -61,6 +62,7 @@ function skill() {
                 <span className="skill-label">Data Structure</span> 
                 <span className="skill-label">Computer Network</span> 
                 <span className="skill-label">Machine Learning</span> 
+                </div>
                 </div>
             </section>
         </>

@@ -13,6 +13,7 @@ function Project() {
     return (
         <>
             <section id="Project">
+            <div className="container">
             <h2>Some Things I’ve Built</h2>
                 <ul className="project-container">
                     <li className="project-item">
@@ -61,6 +62,7 @@ function Project() {
                         </div>
                     </li>
                 </ul>
+                </div>
             </section>
         </>
     )

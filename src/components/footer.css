@@ -1,6 +1,6 @@
 .footer {
     padding: 15rem 0 4rem 0;
-    color: rgb(0, 0, 0);
+    color: rgb(199, 186, 243);
     background-image: url("../asset/footer.svg");
     background-size: cover;
     background-position: top;
@@ -22,9 +22,10 @@
     margin: 0.5rem;
 }
 @media (max-width: 1080px) {
-    .footer {
+    .footer > div{
         margin: 0 2rem;
     }
+
   }
 @media (max-width: 768px) {
     .footer .footer-container{

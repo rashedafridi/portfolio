@@ -1,3 +1,8 @@
+.heading{
+  background: radial-gradient(at top left, rgb(40, 9, 90) 0%, #5809b3c0 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
 .home-container {
     font-family: "Varela Round", sans-serif;
     display: flex;

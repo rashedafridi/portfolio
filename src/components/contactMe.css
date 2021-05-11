@@ -71,6 +71,12 @@
   color: rgb(255, 65, 54);
 }
 /* for error style end */
+@media (max-width: 1080px) {
+  .dJwzEo{
+    padding: 0 1rem ;
+  }
+
+}
 @media (max-width: 960px) {
   .dJwzEo {
     flex-direction: column;

@@ -5,7 +5,7 @@ export default function footer() {
     return (
         
         <footer className="footer">
-        <div className="main-container">
+        <div className="container">
             <h3>Rashed Afridi</h3>
             <div  className="footer-container">
                 <div>

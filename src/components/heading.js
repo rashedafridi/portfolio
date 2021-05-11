@@ -64,7 +64,8 @@ const Home = () => {
   }, [showHeadingOne, showHeadingTwo]);
 
   return (
-    <section className="home-container" id="home" name="home">
+    <section className="heading" id="home" name="home">
+    <div className="container home-container">
       <motion.div
         className="content-container"
         variants={contentVariants}
@@ -155,7 +156,7 @@ const Home = () => {
         {/* <img className="svg" src={laptopSvg} alt="" /> */}
         <img className="svg" src={pngg} alt="" />
       </motion.div>
-      
+      </div>
     </section>
   );
 };

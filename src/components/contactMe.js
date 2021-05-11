@@ -4,6 +4,7 @@ import "./contactMe.css"
 export default function ContactMe() {
     return (<>
         <section id="contact">
+        <div className="container">
             <div className="dJwzEo">
                 <h2> Contact Me</h2>
                 <div className="icPAF">
@@ -19,6 +20,7 @@ export default function ContactMe() {
                 <div className="juTbfV">
                     <img src={contact} alt="contact" />
                 </div>
+            </div>
             </div>
         </section>
     </>)

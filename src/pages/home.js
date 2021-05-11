@@ -15,16 +15,15 @@ function home() {
     return (
       <>
       <SideContactElement/>
-      <div className="main-container">
+      <div >
         <Nav />
         <Heading />
         <Skill />        
         {/* <Project /> */}
         <Project2 />
         <ContactMe />
-        {/* <Footer /> */}
+        <Footer />
       </div>
-      <Footer/>
       </>
     );
   }
