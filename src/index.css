@@ -13,7 +13,6 @@ body {
   -moz-osx-font-smoothing: grayscale; */
   background: linear-gradient(-45deg, #ffffff, #e0d9e7, #ffffff, #ebe6ff);
   background-size: 400% 400%;
-  backdrop-filter: blur(5px);
   animation: gradient 10s ease infinite;
 }
 
@@ -33,6 +32,7 @@ body {
   /* height: 100%; */
   margin: 0 auto;
   max-width: 1200px;
+  contain:none !important;
 }
 .container .h2tag{
   margin: 8rem 0 2rem 0;
