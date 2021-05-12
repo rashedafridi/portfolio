@@ -3,12 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+}
 body {
-
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  /* width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;  */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   background: linear-gradient(-45deg, #ffffff, #e0d9e7, #ffffff, #ebe6ff);
@@ -18,13 +30,13 @@ body {
 
 @keyframes gradient {
   0% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
   50% {
-      background-position: 100% 50%;
+    background-position: 100% 50%;
   }
   100% {
-      background-position: 0% 50%;
+    background-position: 0% 50%;
   }
 }
 .container {
@@ -32,9 +44,9 @@ body {
   /* height: 100%; */
   margin: 0 auto;
   max-width: 1200px;
-  contain:none !important;
+  contain: none !important;
 }
-.container .h2tag{
+.container .h2tag {
   margin: 8rem 0 2rem 0;
   font-size: 3rem;
   font-weight: bold;
@@ -42,11 +54,11 @@ body {
   text-decoration-color: #b263fb;
   /* border-bottom: 2px solid rgb(112, 10, 246); */
 }
-.container .h2tag span{
+.container .h2tag span {
   color: rgb(112, 10, 246);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
