@@ -13,9 +13,9 @@ html,body
 }
 body {
   margin: 0px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
   /* width: 100%;
   height: 100%;
   margin: 0px;
@@ -23,9 +23,12 @@ body {
   overflow-x: hidden;  */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background: linear-gradient(-45deg, #ffffff, #e0d9e7, #ffffff, #ebe6ff);
+  /* background: linear-gradient(-45deg, #ffffff, #e0d9e7, #e5d9f1, #3600e6);   
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 10s ease infinite; */
+  /* background: linear-gradient(to bottom right, #decdfa, #ffffff); */
+  background: #eeeaf5;
+  background-repeat: no-repeat;
 }
 
 @keyframes gradient {
