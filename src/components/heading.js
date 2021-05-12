@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./heading.css";
-import laptopSvg from "../asset/Asset.svg";
+// import laptopSvg from "../asset/Asset.svg";
 import pngg from "../asset/about.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
@@ -64,7 +64,7 @@ const Home = () => {
   }, [showHeadingOne, showHeadingTwo]);
 
   return (
-    <section className="heading" id="home" name="home">
+    <section data-aos="fade-in" className="heading" id="home" name="home">
     <div className="container home-container">
       <motion.div
         className="content-container"
@@ -117,7 +117,7 @@ const Home = () => {
           </AnimatePresence>
         </div>
         <p className="paragraph">
-        I'm a french graduate from <strong>UIU</strong>  in computer science and engineering.
+        I'm a french graduate from <strong style={ {color:"#ff7300" }}>UIU</strong>  in computer science and engineering.
         I'm working towed becoming fullStack Developer , but I am also interested in mobile and meshing learning development ☺.
         So you can say that I am a very curious learner.
         </p>

@@ -6,18 +6,18 @@ export default function ContactMe() {
         <section id="contact">
         <div className="container">
             <div className="dJwzEo">
-                <h2> Contact Me</h2>
-                <div className="icPAF">
+                <h2 className="h2tag"> <span>Contact</span>  Me</h2>
+                <div data-aos="fade-up" className="icPAF">
                     <form >
 
                         <div className="dIOxDO"><input className="dolPUu" type="text" placeholder="Name" /></div>
                         <div className="dIOxDO"><input className="dolPUu" type="email" placeholder="Email" /></div>
                         <div className="dIOxDO"> <input className="dolPUu" type="text" placeholder="subject" /></div>
                         <div className="dIOxDO"><textarea className="dolPUu" placeholder="Email detail........" name="detail" id="" cols="30" rows="10"></textarea></div>
-                        <div class=" ksNaio"><button type="submit" class=" cuWRXQ" disabled >Submit</button></div>
+                        <div className=" ksNaio"><button type="submit" className=" cuWRXQ" disabled >Submit</button></div>
                     </form>
                 </div>
-                <div className="juTbfV">
+                <div data-aos="fade-down" className="juTbfV">
                     <img src={contact} alt="contact" />
                 </div>
             </div>

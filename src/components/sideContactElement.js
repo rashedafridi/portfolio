@@ -1,9 +1,8 @@
 import "./sideContactElement.css"
-import pngg from "../asset/about.png";
 //icons
 
-import { FaPython, FaGithub, FaLink } from 'react-icons/fa';
-
+import {  FaGithub ,FaLinkedinIn } from 'react-icons/fa';
+import {  FiFacebook } from 'react-icons/fi';
 function SideContactElement() {
     return (
         <>
@@ -15,13 +14,13 @@ function SideContactElement() {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/rashedafridi" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                            <FaGithub />
+                        <a href="https://www.linkedin.com/in/rashedafridi/" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn />
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/rashedafridi" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                            <span className="svg"><FaGithub /></span>
+                        <a href="https://www.facebook.com/rashed.afridi.1/" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <FiFacebook/>
                         </a>
                     </li>
                 </ul>

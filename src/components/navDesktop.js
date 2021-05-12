@@ -1,5 +1,5 @@
 
-import { animateScroll as scroll, Link } from "react-scroll";
+import { Link } from "react-scroll";
 import './nav.css';
 const Nav = ({offset}) => {
     return(

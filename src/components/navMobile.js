@@ -3,7 +3,7 @@ import { BsGraphUp } from "react-icons/bs";
 import { GiFilmProjector } from "react-icons/gi";
 import { TiContacts } from "react-icons/ti";
 import "./nav.css";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { Link } from "react-scroll";
 const Nav = ({offset , navClicked}) => {
     return(
         <ul className={navClicked ? "nav-links active " : "nav-links "}>

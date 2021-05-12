@@ -91,13 +91,18 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out 0s;
   }
-  
+    .paragraph{
+    color: #ede0f8;
+    padding: 1rem 0 ;
+   
+  }
   .contact-btn {
     margin-right: 1rem;
   }
   @media screen and (max-width: 1150px) {
     .home-container {
       flex-direction: column;
+      margin-bottom: 20rem;
     }
     .content-container {
       padding-top: 5rem;
@@ -107,18 +112,30 @@
       text-align: center;
     }
     .svg-container {
-      width: 100vw;
+      margin-top: 0;
+      width: 70vw;
+      height: 26rem;
+      margin-bottom: 10rem;
+    }
+    .paragraph{
+      /* text-align: justify; */
+      /* text-align: right; */
+      text-align: left;
+      color: #ede0f8;
+      padding: 1rem 10rem ;
+     
     }
   }
-  .paragraph{
-    /* text-align: justify; */
-    /* text-align: right; */
-    text-align: left;
-    color: #ede0f8;
-    padding: 0.6rem;
-   
-  }
+
+
   @media screen and (max-width: 900px) {
+    .paragraph{
+
+      text-align: center;
+
+      padding: 1rem 2rem ;
+     
+    }
     .svg-container {
       display: none;
     }

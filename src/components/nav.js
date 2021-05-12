@@ -10,7 +10,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Nav = () => {
-  
+
   const [navClicked, setNavClicked] = useState(false);
   let offset = -70;
 
@@ -45,12 +45,12 @@ const Nav = () => {
 
 
   return (
-    <div className="container">
-      <div className={` ${navbar ? " nav-wrapper active":" nav-wrapper"} `} >
+    <div className="container ">
+      <div className={`${navbar ? " nav-wrapper active" : " nav-wrapper"} `} >
         <div className={"nav-container"}>
           <span className="logo" onClick={() => scroll.scrollToTop()}>
             &lt; Rashed Afridi &gt;
-      </span>
+          </span>
           {/* Mobile Menu Icon */}
           <div className="menu-icon" onClick={handleClick}>
             <i>{navClicked ? <AiOutlineClose /> : <AiOutlineMenu />}</i>

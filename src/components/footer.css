@@ -21,9 +21,12 @@
     height: 25px;
     margin: 0.5rem;
 }
+.footer-container-wrap{
+    margin: 0 0.4rem;
+}
 @media (max-width: 1080px) {
-    .footer > div{
-        margin: 0 2rem;
+    .footer-container-wrap{
+        margin: 0 4rem;
     }
 
   }
