@@ -28,8 +28,8 @@ function Project() {
                                     </h3>
                                     <div className="project-description">
                                         <p>
-                                        3 page candy shop website where user can bye all sort of sweet .website includes home page, card/checkout page and admin page.
-                                        
+                                        3-page candy shop website where users can buy all sorts of sweets. session-based login and card system .
+                                        website includes the home page, cart/checkout page, and admin page. 
                                         </p>
                                     </div>
                                     <ul className="project-tech-list">
@@ -59,7 +59,6 @@ function Project() {
 
                             </div>
                         </li>
-
                         <li className="huabVa">
                             <div className="project-detail project-content">
                                 <div>
@@ -72,9 +71,9 @@ function Project() {
                                 </a>
                                     </h3>
                                     <div className="project-description">
-                                        <p>google keep lookalike, notetaking app. build with reactJS
-                                        For frontend I used react, hook, and Axios for frontend to backend communication.
-                                        For backend I used node with Express to crest Rest-API. I used MongoDB as database.
+                                        <p>google keep lookalike, notetaking app. support full CARD operation.
+                                         build with reactJS For the frontend, I used react, hook, and Axios for the frontend to backend communication.
+                                          For the backend, I used node with Express to crest Rest-API. also MongoDB as a database.
                                         </p>
                                     </div>
                                     <ul className="project-tech-list">
@@ -120,8 +119,9 @@ function Project() {
                                 </a>
                                     </h3>
                                     <div className="project-description">
-                                        <p>teacher-lagbe is a website where privat tutor can creat there profile so that student can contact them .
-                                        in this project i used Vue-Router,VueX,firebase
+                                        <p>teacher-lagbe is a website where private tutors can create their profiles with their qualifications.
+                                         so that students can filter through all the tutors and contact them.
+                                         In this project, I used Vue-Router, VueX, and firebase.
                                         </p>
                                     </div>
                                     <ul className="project-tech-list">

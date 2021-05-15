@@ -117,8 +117,9 @@ const Home = () => {
           </AnimatePresence>
         </div>
         <p className="paragraph">
-        I'm a french graduate from <strong style={ {color:"#ff7300" }}>UIU</strong>  in computer science and engineering.
-        I'm working towed becoming fullStack Developer , but I am also interested in mobile and meshing learning development ☺.
+        I'm a fresh graduate from <strong style={ {color:"#ff7300" }}> <a style={ {color:"#ff7300" }} href="http://www.uiu.ac.bd/" target="_blank" rel="noopener noreferrer">UIU</a> </strong> 
+        in computer science and engineering.
+        I'm working towed becoming a full-stack developer, but I am also interested in mobile and meshing learning development ☺.
         So you can say that I am a very curious learner.
         </p>
         {/* // */}
