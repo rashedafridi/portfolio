@@ -140,7 +140,7 @@ const Home = () => {
             Contact Me
           </button>
           <a
-            href="https://drive.google.com/file/d/1Hy41w1PJSU5HITTEQOWvg_8vonp4xDRr/view?usp=sharing"
+            href="https://drive.google.com/drive/folders/1eJXbL4cQWw3bQiqs96ct67E-xcnYjPwK?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
