@@ -1,7 +1,7 @@
 import "./skill.css"
 //icons
 import { DiMongodb,DiJava,DiAndroid } from 'react-icons/di';
-import { SiNextDotJs,SiAdobepremiere,SiMysql,SiJavascript ,SiPhp,SiTailwindcss,SiLaravel,SiDjango,SiJquery,SiRedux } from 'react-icons/si';
+import { SiNextDotJs,SiAdobepremiere,SiMysql,SiJavascript ,SiPhp,SiTailwindcss,SiLaravel,SiDjango,SiJquery,SiRedux, SiElixir  } from 'react-icons/si';
 import { FaReact,FaNodeJs } from 'react-icons/fa';
 import { FaVuejs } from 'react-icons/fa';
 import { FaPython,FaGithub } from 'react-icons/fa';
@@ -19,11 +19,12 @@ function skill() {
                     <div data-aos="fade-right" className="skill-container ">
                         <h3 className="skill-heading" >Programming Languages</h3>
                         
-                            <span className="skill-icon"><SiJavascript/></span>
-                            <span className="skill-icon"><FaPython/></span>
-                            <span className="skill-icon">C++</span>
-                            <span className="skill-icon"><DiJava/></span>
-                            <span className="skill-icon"><SiPhp/></span>   
+                        <span title="JavasScript" className="skill-icon"><SiJavascript/></span>
+                        <span className="skill-icon"><FaPython/></span>
+                        <span className="skill-icon">C++</span>
+                        <span className="skill-icon"><DiJava/></span>
+                        <span className="skill-icon"><SiPhp/></span>   
+                        <span className="skill-icon"><SiElixir /></span>   
                     </div>
                     <div data-aos="fade-left" className="skill-container">
                         <h3 className="skill-heading">liberty /framework:</h3>
@@ -47,7 +48,7 @@ function skill() {
                         <span className="skill-icon"><DiMongodb/></span>
                         <span className="skill-icon"><SiMysql/></span> 
                     </div>
-                    <div data-aos="fade-up-left" >
+                    <div data-aos="fade-up-left" className="skill-container" >
                         <h3 className="skill-heading">Tools</h3>
 
                         <span className="skill-icon"><FaGithub/></span>
