@@ -59,7 +59,8 @@
   color: aqua;
 } */
 .huabVa .project-title {
-  color: #220070 !important;
+  /* color: #220070 !important; */
+  color: #6a2aff !important;
   font-size: clamp(24px, 5vw, 28px);
   /* text-align: right; */
 }
@@ -92,7 +93,8 @@
   z-index: 2;
   padding: 25px;
   border-radius: 4px;
-  background-color: #470fe0;
+  /* background-color: #470fe0; */
+  background-color: #b05aeeb8;
   color: #e3e8f8;
   font-size: 18px;
 }
