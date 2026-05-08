@@ -48,6 +48,24 @@ const Nav = ({offset , navClicked}) => {
           <Link
             className={`mlink `}
             activeClass="active"
+            to="Experience"
+            spy={true}
+            hashSpy={true}
+            smooth={true}
+            delay={100}
+            offset={offset}
+            duration={500}
+          >
+            <div className=" link-title"> Experience</div>
+          </Link>
+          <i className="icon ">
+            <GiFilmProjector />
+          </i>
+        </li>
+        <li className={"icon-box "}>
+          <Link
+            className={`mlink `}
+            activeClass="active"
             to="Project"
             spy={true}
             hashSpy={true}

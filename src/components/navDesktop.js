@@ -40,6 +40,21 @@ const Nav = ({offset}) => {
           <Link
             className={ "anchor"}
             activeClass="active"
+            to="Experience"
+            delay={100}
+            spy={true}
+            smooth={true}
+            offset={offset}
+            hashSpy={true}
+            duration={500}
+          >
+            Experience
+          </Link>
+        </li>
+        <li className="link">
+          <Link
+            className={ "anchor"}
+            activeClass="active"
             to="Project"
             delay={100}
             spy={true}
