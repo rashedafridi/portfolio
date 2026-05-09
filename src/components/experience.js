@@ -63,7 +63,7 @@ const ExperienceItem = ({ experience, aosData }) => {
       <div className="ex-content">
         <div className="ex-header">
           <h3 className="ex-title">{title}</h3>
-          <a className="ex-company" href={companyUrl} target="_blank" >
+          <a className="ex-company" href={companyUrl} target="_blank" rel="noopener noreferrer" >
             {company} · <span className="ex-location">{location}</span>{" "}
           </a>
         </div>
