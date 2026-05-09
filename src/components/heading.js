@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./heading.css";
 // import laptopSvg from "../asset/Asset.svg";
 import pngg from "../asset/about.png";
+import BD from "../asset/bd.png";
 import { motion, AnimatePresence } from "framer-motion";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -132,10 +133,10 @@ const Home = () => {
 
         <h2>
           {" "}
-          {/* from Bangladesh{" "} */}
-          <span role="img" aria-label="Bangladesh Flag">
+          from Bangladesh{" "} <img height="24px"  src={BD} alt="BD"/> 
+          {/* <span role="img" aria-label="Bangladesh Flag">
             BD
-          </span>
+          </span> */}
         </h2>
 
         <div className="button-wrapper">

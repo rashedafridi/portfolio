@@ -1,9 +1,15 @@
 .heading{
   background: radial-gradient(at top left, rgb(40, 9, 90) 0%, #5809b3c0 100%);
   background-repeat: no-repeat;
-  height: 100vh;
+ 
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  overflow: hidden; 
+}
+@media screen and (min-width: 900px) {
+    .heading{
+       height: 100vh;
+    }
 }
 .home-container {
     font-family: "Varela Round", sans-serif;
@@ -94,6 +100,7 @@
     .paragraph{
     color: #ede0f8;
     padding: 1rem 0 ;
+    text-align: justify;
    
   }
   .contact-btn {
@@ -129,6 +136,7 @@
 
 
   @media screen and (max-width: 900px) {
+
     .paragraph{
 
       text-align: center;

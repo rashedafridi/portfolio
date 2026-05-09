@@ -15,7 +15,7 @@ function Project() {
                 <div className="container">
                     <h2 className="h2tag"> <span> Some Things </span>I’ve Built</h2>
                     <ul className="project-container dnNJYD">
-                        <li className="huabVa">
+                        <li className="huabVa" data-aos="fade-left">
                             <div className="project-detail project-content">
                                 <div>
                                     <p className="project-overline"> Project</p>
@@ -59,7 +59,7 @@ function Project() {
 
                             </div>
                         </li>
-                        <li className="huabVa">
+                        <li className="huabVa" data-aos="fade-right" >
                             <div className="project-detail project-content">
                                 <div>
                                     <p className="project-overline">Project</p>
@@ -107,7 +107,7 @@ function Project() {
 
                             </div>
                         </li>
-                        <li className="huabVa">
+                        <li className="huabVa" data-aos="fade-left">
                             <div className="project-detail project-content">
                                 <div>
                                     <p className="project-overline">Project</p>
