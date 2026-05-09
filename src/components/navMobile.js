@@ -1,5 +1,6 @@
 import { AiFillHome } from "react-icons/ai";
 import { BsGraphUp } from "react-icons/bs";
+import { CgWorkAlt   } from "react-icons/cg";
 import { GiFilmProjector } from "react-icons/gi";
 import { TiContacts } from "react-icons/ti";
 import "./nav.css";
@@ -59,7 +60,7 @@ const Nav = ({offset , navClicked}) => {
             <div className=" link-title"> Experience</div>
           </Link>
           <i className="icon ">
-            <GiFilmProjector />
+            <CgWorkAlt   />
           </i>
         </li>
         <li className={"icon-box "}>
